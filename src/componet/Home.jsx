@@ -38,8 +38,8 @@ const Home = () => {
             </br> and JavaScript, as well as back-end frameworks such as Node.js and databases<br>
             </br> like MongoDB.</p>
           <div className='flex mt-10 gap-10'>
-            <p><IoLogoGithub className='h-15 w-15 text-red-500' /></p>
-            <p><MdEmail className='h-15 w-15 text-red-500' /></p>
+            <p><IoLogoGithub className='h-12 w-12' /></p>
+            <p><MdEmail className='h-12 w-12' /></p>
           </div>
           <button className="border border-gray-600 bg-red-500 px-4 py-2 rounded-3xl hover:bg-black hover:text-red-500 hover:shadow-md hover:shadow-red-500 transition mt-10 h-15 w-50">
             Download CV

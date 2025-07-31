@@ -6,9 +6,9 @@ const Project = () => {
     <div>
       <Header />
 
-      <div className='h-full bg-gray-800 px-35 gap-60 text-white' style={{ height: "calc(100vh - 88px)" }}>
+      <div className='h-full bg-black px-35 gap-60 text-white' style={{ height: "calc(100vh - 88px)" }}>
         <div>
-          <p className='text-[70px] font-bold py-15'>Proj<span className='text-blue-300'>ect</span></p>
+          <p className='text-[70px] font-bold py-15'>Proj<span className='text-red-500'>ect</span></p>
         </div>
         <div>
           <a href="https://to-do-list-beta-three-71.vercel.app/" target='_blank'>

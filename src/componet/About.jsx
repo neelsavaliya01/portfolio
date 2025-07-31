@@ -3,15 +3,15 @@ import Header from './Header'
 
 const About = () => {
   return (
-    <div className='bg-gray-800 text-white h-screen'>
+    <div className='bg-black text-white h-screen'>
       <Header />
 
       <div className='flex items-center h-full justify-center px-35 gap-60' style={{ height: "calc(100vh - 88px)" }}>
         <div>
-          <img src='https://as1.ftcdn.net/v2/jpg/08/48/77/18/1000_F_848771868_uWzqyHY16OlwDxsk6SAeYlm1WzVjjY3V.jpg' className='h-100 w-100'></img>
+          <img src='https://as1.ftcdn.net/v2/jpg/08/48/77/18/1000_F_848771868_uWzqyHY16OlwDxsk6SAeYlm1WzVjjY3V.jpg' className='h-100 w-150 rounded-3xl shadow-red-500 shadow-2xl'></img>
         </div>
         <div>
-          <p className='font-bold text-[60px] '>About <span  className='text-blue-400'>Me</span></p>
+          <p className='font-bold text-[60px] '>About <span  className='text-red-500'>Me</span></p>
           <p className='font-bold text-[35px]'>Full stack Developer!</p>
           <p className='font-semibold text-[25px] mt-5'>I am a passionate Full Stack Developer skilled in<br></br>
             building dynamic and user-friendly web applications.<br></br>
