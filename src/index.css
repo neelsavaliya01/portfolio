@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-.anime {
+/* .anime {
     border: 8px solid black;
     border-top: 8px solid red;
     border-bottom: 8px solid red;
@@ -15,4 +15,4 @@
     100% {
         transform: rotate(270deg);
     }
-}
+} */

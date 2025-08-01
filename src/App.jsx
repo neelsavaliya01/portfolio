@@ -5,7 +5,7 @@ import About from './componet/About'
 import Skill from './componet/Skill'
 import Project from './componet/Project'
 import Contect from './componet/Contect'
-import Header from './componet/Header'
+import Layout from './componet/Layout'
 
 function App() {
 
@@ -13,11 +13,11 @@ function App() {
     <>
     <BrowserRouter>
     <Routes>
-      <Route path='/' element={<Home />}  />
-      <Route path='/about' element={<About />} />
-      <Route path='/skill' element={<Skill />} />
-      <Route path='/project' element={<Project />} />
-      <Route path='/contect' element={<Contect />} />
+      <Route path='/' element={<Layout><Home /></Layout>}  />
+      <Route path='/about' element={<Layout><About /></Layout>} />
+      <Route path='/skill' element={<Layout><Skill /></Layout>} />
+      <Route path='/project' element={<Layout><Project /></Layout>} />
+      <Route path='/contect' element={<Layout><Contect /></Layout>} />
     </Routes>
     </BrowserRouter>
     </>

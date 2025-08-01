@@ -2,37 +2,33 @@ import React, { useEffect } from 'react'
 import Header from './Header'
 import { IoLogoGithub } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
-import Typed from "typed.js";
+// import Typed from "typed.js";
 import About from './About';
-
-
+import Skill from './Skill';
+import Project from './Project';
+import Contect from './Contect';
 
 const Home = () => {
-  useEffect(() => {
-    // Initialize Typed.js after the DOM is loaded
-    const options = {
-      strings: ["Frontend Developer", "Web Developer", "Full Stack Developer"],
-      typeSpeed: 100,
-      backSpeed: 100,
-      backDelay: 1000,
-      loop: true,
-    };
-    /*global Typed*/
-    /*eslint no-undef: ["error", { "typeof": true }] */
-    const typed = new Typed(".textanimation", options);
-    // Cleanup on unmount
-    return () => {
-      typed.destroy();
-    };
-  }, []);
+  // useEffect(() => {
+  //     const options = {
+  //     strings: ["Frontend Developer", "Web Developer", "Full Stack Developer"],
+  //     typeSpeed: 100,
+  //     backSpeed: 100,
+  //     backDelay: 1000,
+  //     loop: true,
+  //   };
+  //     const typed = new Typed(".textanimation", options);
+  //   return () => {
+  //     typed.destroy();
+  //   };
+  // }, []);
   return (
     <div className='bg-black text-white'>
-      <Header />
       <div className='flex items-center h-full justify-between px-35 gap-25' style={{ height: "calc(100vh - 88px)" }}>
         <div className='font-bold'>
-          <p className='text-[35px]'><span className='text-red-500'>Hello</span>, it's me <span className='text-red-500'>.</span></p>
+          <p className='text-[35px]'><span>Hello</span>, it's me <span>.</span></p>
           <p className='text-[70px]'>Neel Savaliya</p>
-          <p className='text-[40px] mt-3'>And i'm a <span className='text-red-500 textanimation'>Web Developer|</span></p>
+          <p className='text-[40px] mt-3'>And i'm a <span className='textanimation'>Web Developer</span></p>
           <p className='text-[30px] mt-5'>I am a passionate Full Stack Developer skilled in building dynamic and user-<br>
           </br>friendly web applications. Proficient in front-end technologies like HTML, CSS,<br>
             </br> and JavaScript, as well as back-end frameworks such as Node.js and databases<br>
@@ -51,6 +47,10 @@ const Home = () => {
           <div className='anime max-[400px]:w-[230px] max-[400px]:h-[230px] max-[550px]:w-[300px] max-[550px]:h-[300px] w-[400px] h-[400px] absolute  top-0 rounded-full' />
         </div>
       </div>
+      <About />
+      <Skill />
+      <Project />
+      <Contect />
     </div>
   )
 }

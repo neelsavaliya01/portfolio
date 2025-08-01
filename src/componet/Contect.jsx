@@ -1,11 +1,9 @@
-import React from 'react'
 import Header from './Header'
 import { IoLogoGithub } from "react-icons/io";
 import { MdEmail } from "react-icons/md";
 const Contect = () => {
   return (
     <div>
-      <Header />
 
 
       <div className='bg-black h-full px-35' style={{ height: "calc(100vh - 88px)" }}>
@@ -26,7 +24,7 @@ const Contect = () => {
             </div>
             <div className='px-50 mt-15'>
               <img src='https://sahilbhai.vercel.app/images/dev1.jpg' className='w-92 h-60 rounded-2xl' />
-              <p className='text-[30px] font-bold mt-3'>neelsavaliya.1@gmail.com</p>
+              <p className='text-[30px] font-bold mt-3'>neelsavaliya01@gmail.com</p>
               <div className='flex gap-15 mt-3'>
                 <p><IoLogoGithub className='h-15 w-15 ' /></p>
                 <p><MdEmail className='h-15 w-15' /></p>

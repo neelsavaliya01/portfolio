@@ -4,7 +4,7 @@ import Header from './Header'
 const About = () => {
   return (
     <div className='bg-black text-white h-screen'>
-      <Header />
+    
 
       <div className='flex items-center h-full justify-center px-35 gap-60' style={{ height: "calc(100vh - 88px)" }}>
         <div>
