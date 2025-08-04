@@ -1,18 +1,14 @@
 @import "tailwindcss";
 
-/* .anime {
-    border: 8px solid black;
-    border-top: 8px solid red;
-    border-bottom: 8px solid red;
-    animation: rotate 5s alternate-reverse infinite;
+@theme {
+    --color-main: red;
+    --breakpoint-mobile: 400px;
 }
 
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
+.active {
+    color: rgb(86, 230, 255);
+}
 
-    100% {
-        transform: rotate(270deg);
-    }
-} */
+html {
+  scroll-behavior: smooth;
+}
